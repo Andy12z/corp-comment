@@ -66,7 +66,7 @@ export const useFeedbackItemsStore=create<Store>((set,get)=>({
   },
   selectCompany:(company: string) => {
     set(()=>({
-        selectCompany:company,
+        selectedCompany:company,
     }))
   },
   fetchFeedbackItems:async () => {
